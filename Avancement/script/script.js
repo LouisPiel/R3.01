@@ -17,4 +17,14 @@ console.log(ville);
 
 document.getElementById("Personne").textContent = personne;
 
+//Exercice2
 
+const personnes = [
+    ["John", "Doe", 25, "Rouen"],
+    ["Jane", "Doe", 30, "Paris"],
+    ["Jim", "Doe", 35, "Caen"],
+];
+console.log(personnes);
+console.table(personnes);
+
+document.getElementById("Personnes").textContent = personnes;
