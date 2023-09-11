@@ -28,3 +28,35 @@ console.log(personnes);
 console.table(personnes);
 
 document.getElementById("Personnes").textContent = personnes;
+
+//Exercice3
+
+personnes.push("Marc");
+personnes.push("Doe");
+personnes.push(32);
+personnes.push("Marseille");
+
+console.log(personnes);
+console.table(personnes);
+
+document.getElementById("Person").textContent = personnes;
+
+// Exercice4
+
+personne.prenom = "Jean"
+personnes[1].splice(0);
+
+console.log(personne);
+console.table(personne);
+console.log(personnes);
+console.table(personnes);
+
+// Exercice5
+
+const nombre = [0, 1,2,3,4,5,6,7,8,9,10]
+
+console.log(nombre[0]);
+console.log(nombre[10]);
+console.log(nombre.length);
+
+document.getElementById("Nombre").textContent = nombre;
